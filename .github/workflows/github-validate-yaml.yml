@@ -1,4 +1,4 @@
-name: Validate-GitHub-Actions
+name: Validate GitHub Actions
 run-name: ${{ github.sha }}_${{ github.run_id }}
 on: [push]
 defaults:
