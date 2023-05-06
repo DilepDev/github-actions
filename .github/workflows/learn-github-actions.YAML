@@ -1,5 +1,4 @@
 name: learn-github-actions
-run-name: ${{ github.sha }}_${{ github.run_id }}
 on: [push]
 jobs:
   check-bats-version:
